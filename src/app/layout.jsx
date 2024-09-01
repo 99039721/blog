@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import "./globals.css";
+import { Footer } from "@/components/Footer";
 
 export const metadata = {
   title: "Blog",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
           <div className="w-[1920px] flex flex-col justify-center items-center">
             <Header />
             {children}
+            <Footer />
           </div>
         </div>
       </body>

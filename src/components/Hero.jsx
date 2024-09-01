@@ -1,10 +1,11 @@
 "use client";
+
 import { Chip } from "./chip";
 
 export const Hero = () => {
   return (
     <div className="w-[1216px] h-[651] mt-[100px] relative">
-      <img src="Image.png" alt="" srcset="" />
+      <img src="Image.png" alt="" />
 
       <div className="border rounded-xl bg-[#FFFFFF] border-[#E8E8EA] absolute bottom-[64px] left-[11px] p-10">
         <div className="h-[124px] w-[518px] flex flex-col gap-4">
@@ -18,10 +19,10 @@ export const Hero = () => {
 
       <div className="flex flex-row justify-end gap-[9px] mt-[11px]">
         <button className="w-10 h-10 border flex justify-center items-center rounded-md">
-          <img src="Icon.png" alt="" srcset="" />
+          <img src="Icon.png" alt="" />
         </button>
         <button className="w-10 h-10 border flex justify-center items-center rounded-md">
-          <img src="Icon (1).png" alt="" srcset="" />
+          <img src="Icon (1).png" alt="" />
         </button>
       </div>
     </div>

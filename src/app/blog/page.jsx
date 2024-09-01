@@ -1,7 +1,12 @@
 import React from "react";
+import { BlogCon } from "@/components/BlogCon";
 
 export const Blog = () => {
-  return <div>Blog</div>;
+  return (
+    <div>
+      <BlogCon />
+    </div>
+  );
 };
 
 export default Blog;

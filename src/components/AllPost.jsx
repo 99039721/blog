@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Chip } from "./Chip";
 import { useState } from "react";
 
+<<<<<<< HEAD
 export const AllPost = ({ posts }) => {
   const [visiblePosts, setVisiblePosts] = useState(9);
   const loadMorePost = () => {
@@ -69,6 +70,24 @@ export const AllPost = ({ posts }) => {
             Load More
           </button>
         </div>
+=======
+export const AllPost = ({ posts = [] }) => {
+  return (
+    <div className="flex flex-wrap gap-8 bg-green-500">
+      {posts.map(
+        ({ id, cover_image, title, tag_list, published_at }, index) => {
+          return (
+            <Link href={`/list/${id}`} key={id} className="w-[280px]">
+              <div className="flex flex-col gap-4 ">
+                <img src={cover_image} alt="" />
+                <div> {tag_list[0]} </div>
+                <div>{title}</div>
+                <div>{published_at}</div>
+              </div>
+            </Link>
+          );
+        }
+>>>>>>> 622b1d31e28990856a2f5bbc86a82f3990cf19f4
       )}
     </div>
   );

@@ -5,13 +5,8 @@ import { CiSearch } from "react-icons/ci";
 
 export const Header = () => {
   return (
-<<<<<<< HEAD
     <header className="flex flex-row justify-start gap-[10px] w-[1917px] h-[100px] py-[32px] px-[350px] border">
       <div className="flex flex-row gap-[118px] w-[1130px] h-[36px] text-gray-400 ">
-=======
-    <header className="flex flex-row gap-[10px] w-[1917px] h-[100px] py-[32px] pr-[350px] pl-[350px] border">
-      <div className="flex flex-row gap-[118px] w-[1130px] h-[36px] text-gray-400">
->>>>>>> fe68997d2d5267232e81f258d452f6c433a9e68c
         <img src="/Logo.png" alt="" className="w-[158px] h-9" />
         <div className="flex justify-center gap-10 my-[6px]">
           <Link href="/">Home</Link>
